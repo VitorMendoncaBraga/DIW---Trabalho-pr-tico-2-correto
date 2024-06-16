@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Reddit+Mono:wght@200..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    font-family: "Rubik", sans-serif;
+    margin: 0px 0px;
+    background-color: rgb(41, 40, 40);
+    color: white;
+}
+
+.espacamento{
+    margin: 0px 40px;
+}
+
+.navbar{
+    margin: 0;
+}
+
+.alinhamento{
+    margin: 12px;
+    border-bottom: 2px solid black;
+}
+.bi{
+    font-size: 40px;
+    padding-right: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.margin{
+    margin: 0 20px;
+}
+
+.box img{
+    border-radius: 100%;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid black ;
+}
+
+.navbar-brand:hover{
+    font-size: 30px;
+}
+
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    color: white;
+    background-color: rgb(31, 30, 30);
+}
+
+.foto img{
+    transition: all 0.3s linear;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.div_seguidores{
+    display: flex;
+    gap: 10px;
+}
+
+.foto{
+    line-height: 50px;
+}
+
+.card{
+    cursor: pointer;
+    height: 232px;
+    display: grid;
+}
+
+.ava{
+    height: 60px;
+    width: 100%;
+}
+
+.foto:hover img{
+    scale: 1.1;
+}
+
+a:hover{
+    color: black;
+}
+
+.perfil{
+    transition: all 0.3s linear;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.perfil:hover{
+    scale: 1.1;
+}
+
+.margin-bottom{
+    padding: 20px 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    margin-top: 60px;
+}
+
+.card{
+    padding: 20px;
+    transition: all 0.3s linear;
+}
+
+.card:hover{
+    scale: 1.1;
+}
+
+.card h5{
+    font-weight: bold;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.ava{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(193, 194, 194);
+}
+
+.star{
+    display: flex;
+    align-items: center;
+}
+
+.person{
+    display: flex;
+    align-items: center; 
+}
+
+.star h4{
+    margin-top: 10px;
+}
+
+.person h4{
+    margin-top: 10px;
+}
+footer{
+    background-color: rgba(129, 131, 131, 0.356);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 800px) {
+    .box{
+       flex-direction: column;
+    }
+    .perfil{
+        height: 250px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+    .perfil{
+        height: 250px;
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1050px) {
+    .perfil{
+        height: 250px;
+        width: 220px;
+        margin-right: 40px;
+    }
+}

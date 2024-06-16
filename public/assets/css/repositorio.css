@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Reddit+Mono:wght@200..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    font-family: "Rubik", sans-serif;
+    margin: 0px 0px;
+    background-color: rgb(41, 40, 40);
+    color: white;
+}
+.nav-link:hover{
+    border-bottom: 2px solid black ;
+}
+
+.navbar-brand:hover{
+    font-size: 30px;
+}
+
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    color: white;
+    background-color: rgb(31, 30, 30);
+}
+
+.espacamento{
+    margin: 0px 40px;
+}
+
+.alinhamento{
+    margin: 12px;
+    border-bottom: 2px solid black;
+}
+
+.topicos .topicos_links{
+    display: flex;
+    gap: 40px;
+}
+
+.topicos_links h6{
+    background-color: rgb(36, 36, 97);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 800px) {
+    img{
+        display: none;
+    }
+    .espacamento{
+        margin: 0;
+    }
+
+}
