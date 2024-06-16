@@ -1,15 +1,10 @@
 {
+  "name": "my-json-server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "json-server --watch db.json"
+  },
   "dependencies": {
     "json-server": "^0.17.0"
-  },
-  "name": "trabalho-pratico2",
-  "version": "1.0.0",
-  "main": "server.js",
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Vitor Mendonça Braga",
-  "license": "ISC",
-  "description": ""
+  }
 }
