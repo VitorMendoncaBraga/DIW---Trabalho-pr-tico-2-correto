@@ -1,15 +1,12 @@
 {
-    "dependencies": {
-      "json-server": "^0.17.0"
-    },
     "name": "trabalho-pratico-diw",
     "version": "1.0.0",
-    "main": "server.js",
-    "devDependencies": {},
+    "description": "Deploy JSON Server to Vercel",
+    "main": "api/server.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+      "start": "node api/server.js"
     },
-    "author": "Vitor Mendonça Braga",
-    "license": "ISC",
-    "description": ""
+    "dependencies": {
+      "json-server": "^0.17.4"
+    }
   }
