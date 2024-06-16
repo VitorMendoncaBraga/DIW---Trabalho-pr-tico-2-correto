@@ -16,7 +16,7 @@ fetch("https://api.github.com/users/VitorMendoncaBraga",{
 })
 
 // colegas
-fetch("http://localhost:3000/colegas")
+fetch("https://json-test-three.vercel.app/colegas")
 .then(function(response){
     return response.json()
 })
@@ -28,7 +28,7 @@ fetch("http://localhost:3000/colegas")
     }
 })
 // Projetos
-fetch("http://localhost:3000/projetos")
+fetch("https://json-test-three.vercel.app/projetos")
 .then(function(response){
    return response.json()
 })
