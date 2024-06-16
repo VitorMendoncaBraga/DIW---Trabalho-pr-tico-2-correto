@@ -16,7 +16,7 @@ fetch("https://api.github.com/users/VitorMendoncaBraga",{
 })
 
 // colegas
-fetch("https://back-end-diw.vercel.app/colegas")
+fetch("http://localhost:3000/colegas")
 .then(function(response){
     return response.json()
 })
@@ -28,7 +28,7 @@ fetch("https://back-end-diw.vercel.app/colegas")
     }
 })
 // Projetos
-fetch("https://back-end-diw.vercel.app/projetos")
+fetch("http://localhost:3000/projetos")
 .then(function(response){
    return response.json()
 })
